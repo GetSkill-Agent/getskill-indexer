@@ -65,6 +65,8 @@ function guessCategory(skill: SkillRaw): string {
   if (/slack|email|messag|discord|telegram/.test(text)) return "communication";
   if (/deploy|ci|cd|docker|k8s|monitor|infra/.test(text)) return "devops";
   if (/research|search|rag|knowledge|scrape/.test(text)) return "research";
+  if (/automat|workflow|zapier|n8n|pipedrive|salesforce|hubspot|jira|crm|calendar/.test(text)) return "automation";
+  if (/secur|threat|forensic|audit|sigma|vuln/.test(text)) return "security";
 
   return "other";
 }

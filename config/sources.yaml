@@ -1,44 +1,97 @@
 # GetSkill Indexer — Source Configuration
 # Each source defines where to scan for Claude Code skills
+# Edit this file to add/remove tracked sources — no code changes needed.
 
 sources:
-  # ── GitHub repo sources (scan for SKILL.md files) ──────
+  # ── Tier 1: GitHub repo sources (scan for SKILL.md files) ──
   githubRepos:
     - id: anthropics-skills
       repo: anthropics/skills
       name: "Anthropic Official Skills"
-      priority: 1    # highest priority for canonical dedup
+      url: https://github.com/anthropics/skills
+      priority: 1    # highest — official reference
 
     - id: alirezarezvani
       repo: alirezarezvani/claude-skills
       name: "Claude Skills Collection"
+      url: https://github.com/alirezarezvani/claude-skills
       priority: 3
 
     - id: getskill-skills
       repo: GetSkill-Agent/getskill-skills
       name: "GetSkill Community"
+      url: https://github.com/GetSkill-Agent/getskill-skills
       priority: 2
 
-  # ── Awesome list sources (parse markdown README) ───────
+  # ── Tier 2: Awesome list sources (parse markdown README) ───
   awesomeLists:
     - id: awesome-claude-skills
       repo: ComposioHQ/awesome-claude-skills
-      name: "Awesome Claude Skills"
+      name: "Awesome Claude Skills (ComposioHQ)"
+      url: https://github.com/ComposioHQ/awesome-claude-skills
       file: README.md
 
-  # ── GitHub topic search ────────────────────────────────
+  # ── Tier 3: GitHub topic search ────────────────────────────
   topicSearch:
     topic: claude-skills
+    url: https://github.com/topics/claude-skills
     maxRepos: 30
     checkForSkillMd: true
 
-# Dedup canonical priority (lower = higher priority)
+  # ── Tier 4: DOM scrapers (no API, cheerio-based) ───────────
+  webScrapers:
+    - id: skills-sh
+      name: "Skills.sh Directory"
+      url: https://skills.sh
+      note: "87K+ skills, trending/all-time rankings, no API"
+
+    - id: aitmpl
+      name: "AITMPL Skills Marketplace"
+      url: https://www.aitmpl.com/skills
+      note: "Claude Code template marketplace (skills + agents + hooks + MCPs)"
+
+  # ── Tier 5: Extra GitHub repos (individual scanners) ───────
+  extraRepos:
+    - id: skill-seekers
+      repo: yusufkaraaslan/Skill_Seekers
+      name: "Skill Seekers"
+      url: https://github.com/yusufkaraaslan/Skill_Seekers
+      note: "Document→skill preprocessor, 16+ export formats"
+
+    - id: planning-with-files
+      repo: OthmanAdi/planning-with-files
+      name: "Planning with Files"
+      url: https://github.com/OthmanAdi/planning-with-files
+      note: "Persistent markdown planning system skill"
+
+    - id: anthropic-courses
+      repo: anthropics/courses
+      name: "Anthropic Courses"
+      url: https://github.com/anthropics/courses
+      note: "Official education materials, may contain skill examples"
+
+  # ── Monitored (not yet scraped, listed for reference) ──────
+  watchlist:
+    - id: skillsmp
+      name: "Skills Marketplace"
+      url: https://skillsmp.com
+      status: blocked   # 403 Forbidden
+      note: "Cannot access — monitoring for availability"
+
+    - id: mem9
+      name: "mem9.ai"
+      url: https://mem9.ai
+      status: watching
+      note: "AI agent memory infrastructure, may list skills in future"
+
+# ── Dedup canonical priority (lower = higher priority) ───────
 # 1: anthropics-skills (official)
 # 2: getskill-skills (community)
 # 3: alirezarezvani, awesome lists
 # 4: github-topic discoveries
+# 5: web scrapers (skills.sh, aitmpl)
 
-# Categories for heuristic scoring
+# ── Categories for heuristic classification ──────────────────
 categories:
   - document-processing
   - web-development
@@ -49,4 +102,6 @@ categories:
   - communication
   - devops
   - research
+  - automation
+  - security
   - other
