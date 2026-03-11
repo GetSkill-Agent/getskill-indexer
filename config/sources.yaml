@@ -1,0 +1,52 @@
+# GetSkill Indexer — Source Configuration
+# Each source defines where to scan for Claude Code skills
+
+sources:
+  # ── GitHub repo sources (scan for SKILL.md files) ──────
+  githubRepos:
+    - id: anthropics-skills
+      repo: anthropics/skills
+      name: "Anthropic Official Skills"
+      priority: 1    # highest priority for canonical dedup
+
+    - id: alirezarezvani
+      repo: alirezarezvani/claude-skills
+      name: "Claude Skills Collection"
+      priority: 3
+
+    - id: getskill-skills
+      repo: GetSkill-Agent/getskill-skills
+      name: "GetSkill Community"
+      priority: 2
+
+  # ── Awesome list sources (parse markdown README) ───────
+  awesomeLists:
+    - id: awesome-claude-skills
+      repo: ComposioHQ/awesome-claude-skills
+      name: "Awesome Claude Skills"
+      file: README.md
+
+  # ── GitHub topic search ────────────────────────────────
+  topicSearch:
+    topic: claude-skills
+    maxRepos: 30
+    checkForSkillMd: true
+
+# Dedup canonical priority (lower = higher priority)
+# 1: anthropics-skills (official)
+# 2: getskill-skills (community)
+# 3: alirezarezvani, awesome lists
+# 4: github-topic discoveries
+
+# Categories for heuristic scoring
+categories:
+  - document-processing
+  - web-development
+  - design
+  - mcp-tools
+  - coding-assistance
+  - data-analysis
+  - communication
+  - devops
+  - research
+  - other
