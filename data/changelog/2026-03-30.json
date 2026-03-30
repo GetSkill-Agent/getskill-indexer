@@ -1,0 +1,21 @@
+{
+  "date": "2026-03-30",
+  "added": [
+    "baoyu-imagine",
+    "github-actions-docs",
+    "use-my-browser",
+    "xget",
+    "tzst",
+    "xdrop",
+    "agent-ui",
+    "widgets-ui",
+    "tools-ui",
+    "developing-genkit-js"
+  ],
+  "removed": [
+    "nano-banana-2",
+    "improve-codebase-architecture",
+    "prd-to-issues"
+  ],
+  "total": 576
+}
