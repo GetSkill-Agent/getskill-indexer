@@ -1,0 +1,40 @@
+{
+  "date": "2026-04-27",
+  "added": [
+    "terraform-skill",
+    "ai-video-generation",
+    "agent-tools",
+    "infsh-cli",
+    "readme-i18n",
+    "xget",
+    "xdrop",
+    "develop-userscripts",
+    "seo-audit",
+    "firecrawl-build-scrape",
+    "to-issues",
+    "ubiquitous-language",
+    "design-an-interface",
+    "request-refactor-plan",
+    "triage-issue",
+    "write-a-skill",
+    "agent-onboarding",
+    "obsidian-vault",
+    "git-guardrails-claude-code",
+    "edit-article",
+    "domain-model",
+    "setup-pre-commit",
+    "cloudflare",
+    "qa",
+    "scaffold-exercises"
+  ],
+  "removed": [
+    "openclaw-secure-linux-cloud",
+    "vue",
+    "expo-api-routes",
+    "expo-deployment",
+    "expo-dev-client",
+    "scrape",
+    "firecrawl-build-search"
+  ],
+  "total": 606
+}
