@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-11",
+  "added": [
+    "top-claude-skills",
+    "llm-council",
+    "survey-generator",
+    "wiki-builder",
+    "wiki-query",
+    "wiki-research-loop",
+    "wiki-viewer",
+    "skills-cli",
+    "use-my-browser",
+    "ai-image-generation",
+    "setup-matt-pocock-skills",
+    "agentspace",
+    "remotion-render",
+    "python-executor",
+    "agent-browser",
+    "running-claude-code-via-litellm-copilot",
+    "readme-i18n",
+    "secure-linux-web-hosting",
+    "product-photography",
+    "higgsfield-generate",
+    "higgsfield-product-photoshoot",
+    "higgsfield-soul-id",
+    "higgsfield-marketplace-cards"
+  ],
+  "removed": [
+    "terraform-skill",
+    "ai-video-generation",
+    "template-skill",
+    "native-data-fetching",
+    "seedance"
+  ],
+  "total": 607
+}
