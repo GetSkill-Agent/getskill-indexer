@@ -1,0 +1,37 @@
+{
+  "date": "2026-05-18",
+  "added": [
+    "baoyu-wechat-summary",
+    "organic-growth-advisor",
+    "pm-skill-creator",
+    "prototype",
+    "xdrop",
+    "tzst",
+    "ai-video-generation",
+    "template-skill",
+    "browser-act",
+    "browser-act-skill-forge",
+    "native-data-fetching"
+  ],
+  "removed": [
+    "web-quality-audit",
+    "accessibility",
+    "best-practices",
+    "core-web-vitals",
+    "performance",
+    "seo",
+    "skills-cli",
+    "value",
+    "remotion-render",
+    "python-executor",
+    "agent-browser",
+    "readme-i18n",
+    "secure-linux-web-hosting",
+    "landing-page-design",
+    "product-photography",
+    "firecrawl-build-scrape",
+    "firecrawl-build-interact",
+    "firecrawl-build-onboarding"
+  ],
+  "total": 602
+}
