@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-08",
+  "added": [
+    "skill-optimizer",
+    "drawio-skill",
+    "zoom-out",
+    "setup-matt-pocock-skills",
+    "caveman",
+    "remotion-render",
+    "secure-linux-web-hosting",
+    "readme-i18n",
+    "tzst",
+    "teach",
+    "ubiquitous-language",
+    "migrate-to-shoehorn",
+    "storyboard-creation"
+  ],
+  "removed": [
+    "web-quality-audit",
+    "accessibility",
+    "best-practices",
+    "core-web-vitals",
+    "performance",
+    "seo",
+    "obsidian-vault",
+    "edit-article",
+    "setup-pre-commit",
+    "developing-genkit-js"
+  ],
+  "total": 776
+}
