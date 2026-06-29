@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-29",
+  "added": [
+    "company-intel",
+    "derisk-measurement-advisor",
+    "ask-matt",
+    "scaffold-exercises",
+    "migrate-to-shoehorn",
+    "landing-page-design",
+    "app-store-screenshots",
+    "firecrawl-research-index",
+    "firecrawl-build-onboarding"
+  ],
+  "removed": [
+    "codex-pet",
+    "review",
+    "running-claude-code-via-litellm-copilot",
+    "infsh-cli",
+    "agent-tools",
+    "python-executor",
+    "decision-mapping",
+    "design-an-interface",
+    "resolving-merge-conflicts",
+    "qa",
+    "request-refactor-plan",
+    "obsidian-vault",
+    "ubiquitous-language",
+    "git-guardrails-claude-code",
+    "edit-article",
+    "storyboard-creation",
+    "product-photography",
+    "video-ad-specs"
+  ],
+  "total": 758
+}
