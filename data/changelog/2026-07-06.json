@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-06",
+  "added": [
+    "loop-library",
+    "onekgpd",
+    "tamarind",
+    "agent-orchestration-advisor",
+    "pinme-uniwebpay",
+    "xiaoyue-companion",
+    "codex-pet",
+    "design-an-interface",
+    "request-refactor-plan",
+    "grilling",
+    "ubiquitous-language",
+    "qa",
+    "git-guardrails-claude-code",
+    "obsidian-vault",
+    "secure-linux-web-hosting",
+    "readme-i18n",
+    "running-claude-code-via-litellm-copilot",
+    "skills-cli",
+    "opensource-guide-coach",
+    "character-design-sheet",
+    "animation-vocabulary",
+    "firecrawl-build-scrape"
+  ],
+  "removed": [
+    "claude-code-skill",
+    "ask-matt",
+    "setup-pre-commit",
+    "app-store-screenshots",
+    "higgsfield-soul-id",
+    "higgsfield-marketplace-cards",
+    "firecrawl-build-onboarding"
+  ],
+  "total": 773
+}
