@@ -1,0 +1,39 @@
+{
+  "date": "2026-07-27",
+  "added": [
+    "genomic-coordinates",
+    "genomic-intelligence",
+    "iso-standards-readiness",
+    "ontology-term-resolution",
+    "openpiv",
+    "uncertainty-and-units",
+    "ai-image-generation",
+    "ai-music",
+    "video-edit",
+    "prisma-client-api",
+    "batch-grill-me",
+    "agent-tools",
+    "python-executor",
+    "infsh-cli",
+    "claude-handoff",
+    "pick-ui-library",
+    "app-store-screenshots"
+  ],
+  "removed": [
+    "iso-13485-certification",
+    "agentskb",
+    "review",
+    "browser-act-skill-forge",
+    "remotion-markup",
+    "remotion-interactivity",
+    "remotion-saas",
+    "web-perf",
+    "agents-sdk",
+    "cloudflare-email-service",
+    "turnstile-spin",
+    "sandbox-sdk",
+    "remotion-upgrade",
+    "better-auth-best-practices"
+  ],
+  "total": 798
+}
