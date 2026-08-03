@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-03",
+  "added": [
+    "analytical-method-validation",
+    "paperclip",
+    "pathogen-variant-surveillance",
+    "pkpd-modeling",
+    "coll-ai-video-generation",
+    "coll-ai-music",
+    "coll-ai-image-generation",
+    "coll-image-to-video",
+    "coll-video-edit",
+    "wizard",
+    "prisma-database-setup",
+    "prisma-cli",
+    "prisma-postgres",
+    "prisma-postgres-setup",
+    "remotion-maps",
+    "remotion-saas",
+    "remotion-upgrade",
+    "web-perf",
+    "agents-sdk",
+    "cloudflare-email-service",
+    "turnstile-spin",
+    "sandbox-sdk"
+  ],
+  "removed": [
+    "writing-fragments",
+    "migrate-to-shoehorn",
+    "writing-beats",
+    "batch-grill-me",
+    "app-store-screenshots",
+    "higgsfield-websites",
+    "higgsfield-soul-id",
+    "higgsfield-marketplace-cards",
+    "mediabunny"
+  ],
+  "total": 811
+}
