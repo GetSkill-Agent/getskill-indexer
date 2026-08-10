@@ -1,34 +1,34 @@
-# Scan Report — 2026-08-03
+# Scan Report — 2026-08-10
 
 ## Source Results
 
 | Source | Skills Found | Duration | Status |
 |--------|-------------|----------|--------|
-| Anthropic Official Skills | 17 | 2.4s | ✅ |
-| Claude Skills Collection | 1 | 3.2s | ✅ |
-| GetSkill Community | 159 | 26.4s | ✅ |
+| Anthropic Official Skills | 17 | 3.6s | ✅ |
+| Claude Skills Collection | 1 | 4.1s | ✅ |
+| GetSkill Community | 159 | 36.4s | ✅ |
 | Awesome Claude Skills (ComposioHQ) | 178 | 0.4s | ✅ |
-| GitHub Topic: claude-skills | 350 | 68.8s | ✅ |
-| AITMPL | 0 | 0.1s | ✅ |
-| Skills.sh | 104 | 0.6s | ✅ |
-| Extra Repos | 2 | 1.5s | ✅ |
-| **Total** | **811** | **103.3s** | |
+| GitHub Topic: claude-skills | 355 | 93.0s | ✅ |
+| AITMPL | 0 | 0.4s | ✅ |
+| Skills.sh | 89 | 0.8s | ✅ |
+| Extra Repos | 2 | 2.1s | ✅ |
+| **Total** | **801** | **140.6s** | |
 
 ## Dedup Summary
 
-- Raw: 811
-- Canonical (unique): 698
-- Duplicates: 113
+- Raw: 801
+- Canonical (unique): 700
+- Duplicates: 101
 
 ## By Category
 
 - **Design**: 184
+- **Web Development**: 80
 - **Document Processing**: 79
-- **Web Development**: 79
-- **Coding Assistance**: 70
+- **Coding Assistance**: 72
 - **Data & Analysis**: 66
 - **DevOps**: 62
-- **Other**: 60
+- **Other**: 59
 - **Automation**: 55
 - **Research**: 15
 - **Communication**: 15
