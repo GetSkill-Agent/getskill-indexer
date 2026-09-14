@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-14",
+  "added": [
+    "alphagenome",
+    "datalad",
+    "folklore-variant-evidence",
+    "create-colleague",
+    "ai-video-generation",
+    "image-to-video",
+    "ai-image-generation",
+    "seedance-2-5-reference-to-video",
+    "higgsfield-marketplace-cards",
+    "remotion-studio",
+    "remotion-multimedia",
+    "remotion-docs",
+    "remotion-markup",
+    "turnstile-spin",
+    "cloudflare-one-migrations"
+  ],
+  "removed": [
+    "drawio-skill",
+    "writing-beats",
+    "writing-shape",
+    "writing-fragments",
+    "migrate-to-shoehorn",
+    "triage",
+    "retro",
+    "animation-vocabulary",
+    "improve-animations",
+    "animate",
+    "find-animation-opportunities",
+    "higgsfield-websites",
+    "agents-sdk",
+    "web-perf",
+    "cloudflare-email-service",
+    "show-me"
+  ],
+  "total": 896
+}
