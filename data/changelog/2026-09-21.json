@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-21",
+  "added": [
+    "writing-beats",
+    "writing-shape",
+    "writing-fragments",
+    "migrate-to-shoehorn",
+    "typesafe-ai",
+    "animate",
+    "animation-vocabulary",
+    "improve-animations",
+    "find-animation-opportunities",
+    "mobile-native",
+    "cloudflare-email-service",
+    "web-perf",
+    "agents-sdk",
+    "sandbox-migrate-to-next",
+    "sandbox-stable",
+    "sandbox-next"
+  ],
+  "removed": [
+    "edit-article",
+    "higgsfield-product-photoshoot",
+    "higgsfield-soul-id",
+    "higgsfield-marketplace-cards",
+    "remotion-interactivity",
+    "remotion-maps",
+    "remotion-upgrade"
+  ],
+  "total": 901
+}
