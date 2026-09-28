@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-28",
+  "added": [
+    "retro",
+    "implement-spec",
+    "pr",
+    "remotion-upgrade",
+    "remotion-interactivity",
+    "remotion-maps"
+  ],
+  "removed": [
+    "ai-music",
+    "ai-video-generation",
+    "image-to-video",
+    "ai-image-generation",
+    "qa",
+    "ubiquitous-language",
+    "obsidian-vault",
+    "higgsfield-generate",
+    "cloudflare",
+    "workers-best-practices",
+    "wrangler",
+    "cloudflare-email-service",
+    "cloudflare-one",
+    "durable-objects",
+    "web-perf",
+    "agents-sdk",
+    "turnstile-spin",
+    "cloudflare-one-migrations",
+    "sandbox-migrate-to-next",
+    "sandbox-stable",
+    "sandbox-next",
+    "nextjs-on-cloudflare"
+  ],
+  "total": 885
+}
